@@ -1,0 +1,94 @@
+/* showQuotes.jsx */
+
+.singleQuote {
+    border: 2px solid white;
+    padding: 20px;
+    margin: auto;
+    width: 60vw;
+    height: 30vh;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.singleQuote h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.singleQuote h2 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.singleQuote h3 {
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    margin-left: 35%;
+}
+
+.singleQuote button {
+    margin: 0 20px;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    border: red;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.singleQuote button:hover {
+    border: 1px solid red;
+}
+
+
+/* NewQuotes.jsx */
+
+.forms {
+    border: 2px solid white;
+    color: white;
+    margin: auto;
+    width: 40vw;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.forms h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.forms div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.forms div label {
+    margin: 0 20px;
+}
+
+input,
+textarea {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 17vw;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid white;
+    background-color: rgba(2, 25, 82, 0.8);
+    color: white;
+}

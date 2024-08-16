@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+}
+
+.nav {
+    background-color: #071952;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 70px;
+    font-size: 30px;
+    color: white;
+    box-shadow: 0 1px 8px white;
+}
+
+.nav>ul {
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    gap: 40px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
